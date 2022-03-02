@@ -1,0 +1,10 @@
+/* main.css */
+
+/* base */
+@import './base/reset.css';
+
+/* pages */
+@import './pages/quote.css';
+
+/* utils */
+@import './utils//variables.css';

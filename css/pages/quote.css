@@ -1,0 +1,208 @@
+/* quote.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    background-color: var(--Dark-Blue);
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    background-color: var(--Dark-Grayish-Blue);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20vh 70vh;
+    padding: 50px 30px;
+    border-radius: 10px;
+    height: 340px;
+}
+
+#id {
+    color: var(--Neon-Green);
+    margin-bottom: 30px;
+    letter-spacing: 0.3rem;
+}
+
+#text {
+    color: var(--Light-Cyan);
+    font-size: 28px;
+    font-weight: 800;
+    width: 30vw;
+}
+
+.divider {
+    margin-top: 30px;
+}
+
+.icon_dice {
+    border-radius: 50%;
+    background-color: var(--Neon-Green);
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 743px;
+    padding: 15px;
+    margin-top: -170px;
+    transition: transform .2s;
+}
+
+.icon_dice:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.rotated-image {
+    animation: rotation 1s infinite linear;
+  }
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;     
+}
+
+.attribution a {
+    color: var(--Neon-Green);
+}
+
+/* RESPONSIVE */
+
+/* Iphone */
+@media (max-width: 812px) { 
+
+    main {
+        background-color: var(--Dark-Grayish-Blue);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 130px 20px;
+        width: 90%;
+    }
+
+    #id {
+        color: var(--Neon-Green);
+        margin-bottom: 30px;
+        letter-spacing: 0.3rem;
+        top: 0;
+        left: 0;
+    }
+
+    #text {
+        color: var(--Light-Cyan);
+        font-size: 28px;
+        font-weight: 800;
+        width: 100%;
+    }
+    
+    .divider {
+        width: 100%;
+    }
+
+    .icon_dice {
+        border-radius: 50%;
+        background-color: var(--Neon-Green);
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        margin: -155px 165px;
+        /* margin-left: 743px;
+        padding: 15px;
+        margin-top: -170px; */
+    }
+    
+    .icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .attribution{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        font-size: 13px;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;     
+    }
+
+ }
+
+ /* Pixel */
+ @media (max-width: 731px) { 
+
+    main {
+        background-color: var(--Dark-Grayish-Blue);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 130px 20px;
+        width: 90%;
+    }
+
+    #id {
+        color: var(--Neon-Green);
+        margin-bottom: 30px;
+        letter-spacing: 0.3rem;
+        top: 0;
+        left: 0;
+    }
+
+    #text {
+        color: var(--Light-Cyan);
+        font-size: 28px;
+        font-weight: 800;
+        width: 100%;
+    }
+
+    .icon_dice {
+        border-radius: 50%;
+        background-color: var(--Neon-Green);
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        margin: -155px 175px;
+        /* margin-left: 743px;
+        padding: 15px;
+        margin-top: -170px; */
+    }
+    
+    .icon {
+        height: 20px;
+        width: 20px;
+    }
+
+    .attribution{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem;     
+    }
+
+}
