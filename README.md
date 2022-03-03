@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/advice-generator-SjDFlSG6R)
-- Live Site URL: [Add live site URL here](https://advice-generator-seven.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/advice-generator-SjDFlSG6R]
+- Live Site URL: [https://advice-generator-seven.vercel.app/]
 
 ## My process
 
@@ -97,7 +97,7 @@ Some areas I'd like to master or even to remeber more easily are:
 ### Useful resources
 
 - [Example resource 1](https://stackoverflow.com/questions/19799846/javascript-rotate-img-on-click) - This helped me for adding the rotation animation to the dice image.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand many possible ways to call an API in vanilla. I'd recommend it to anyone still learning this concept.
+- [Example resource 2](https://levelup.gitconnected.com/all-possible-ways-of-making-an-api-call-in-plain-javascript-c0dee3c11b8b) - This is an amazing article which helped me finally understand many possible ways to call an API in vanilla. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
